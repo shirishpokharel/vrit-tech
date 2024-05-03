@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.searchBox {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+.searchBox input {
+  padding-left: 30px;
+  height: 2em;
+  border: 1px solid lightgrey;
+}
+
+.deleteButton {
+  display: inline-flex;
+  gap: 5px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  width: 5rem;
+  border: none;
+  outline: none;
+}
